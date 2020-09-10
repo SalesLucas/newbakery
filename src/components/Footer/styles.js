@@ -4,6 +4,7 @@ import FooterWall from '../../assets/img/Footer.png';
 export const FooterBase = styled.footer`
   z-index: 1000;
   background-image: url(${FooterWall});
+  background-repeat: round;
   border-top: 3px solid var(--primary);
   padding-left: 16px;
   padding-right: 16px;

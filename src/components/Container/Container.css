@@ -1,6 +1,7 @@
 .Container{
             width: 100%;
-            height: 500px;
+            height: 80vh;
+            position: relative;
             border-top: 3px solid var(--white);
             padding-left: 16px;
             padding-right: 16px;
@@ -13,5 +14,33 @@
             display: flex;
             flex-direction: row;
             justify-content: center;
-            align-items: center
+            align-items: center;
+            
+            @media (max-width: 800px) {
+                height: auto;
+                min-height: 50vh;
+              }
+            @media (max-width: 800px) {
+                display: none;
+              }
     }
+    .Container:after,
+    .Container:before {
+      content: "";
+      display: block;
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin: auto;
+      height: 20%;
+    }
+    .Container:before {
+        top: 0;
+        height: 100%;
+        background: rgba(0,0,0,0.5);
+      }
+    
+    .Container:after {
+        bottom: 0;
+        background: linear-gradient(0deg, #141414 0%, transparent 100%);
+      }
