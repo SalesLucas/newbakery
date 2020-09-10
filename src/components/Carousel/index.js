@@ -2,11 +2,12 @@ import React from 'react';
 import Paes from '../../assets/img/paes.png'
 import Paes2 from '../../assets/img/paes2.png'
 import Paes3 from '../../assets/img/paes3.png'
+import './Carousel.css';
 
 function Carousel (){
     return (
      
-            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" >
+            <div id="carouselExampleCaptions" className="Carousel" class="carousel slide" data-ride="carousel" >
                 <ol class="carousel-indicators">
                     <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
                     <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
