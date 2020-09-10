@@ -1,7 +1,7 @@
 .Container{
             width: 100%;            
             position: relative;
-            border-top: 3px solid var(--white);            
+            /* border-top: 3px solid var(--white);             */
             padding-left: 16px;
             padding-right: 16px;
             background: #169e9e;
