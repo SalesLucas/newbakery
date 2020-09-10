@@ -1,8 +1,8 @@
 .carousel,
 .item,
 .active {
-height: 100%;
-height: 500px;
+/* height: 100%; */
+height: 48vh;
 width: 100%;
 }
 .item img{
