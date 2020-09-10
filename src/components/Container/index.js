@@ -8,7 +8,7 @@ function Container() {
         <div className="Container">
         <div class="text-center" style={{
             paddingTop: '5%',
-            paddingBottom: '15%'
+            paddingBottom: '10%'
             }}>
             <div class="row">
                 <div class="col-lg-4">
@@ -28,7 +28,7 @@ function Container() {
                     <h2>Heading</h2>
                     <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
                     <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-                </div>
+                </div>                
             </div>
         </div>
         </div>

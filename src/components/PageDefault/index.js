@@ -5,7 +5,7 @@ import Menu from '../Menu';
 import Footer from '../Footer';
 
 const Main = styled.main`
-  background-color: var(--black);
+  background: #169e9e;
   color: var(--white);
   flex: 1;
   padding-top: 50px;
@@ -14,6 +14,18 @@ const Main = styled.main`
   ${({ paddingAll }) => css`
     padding: ${paddingAll};
   `}
+  
+  &:after,
+  &:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 20%;
+  }
+
 `;
 
 
